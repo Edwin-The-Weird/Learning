@@ -26,6 +26,7 @@ if which_side == "hypotenuse":
         c_base = base * base
         cZero_hypo = c_height + c_base
         c_hypo = math.sqrt(cZero_hypo)
+        c_hypo = str(c_hypo)
         print("Hypotenuse: " + c_hypo)
 
 elif which_side == "height":
@@ -36,6 +37,7 @@ elif which_side == "height":
         c_base = base * base
         cZero_height = c_hypo - c_base
         c_height = math.sqrt(cZero_height)
+        c_height = str(c_height)
         print("Height: " + c_height)
 
 elif which_side == "base":
@@ -46,6 +48,7 @@ elif which_side == "base":
         c_height = height * height
         cZero_base = c_hypo - c_height
         c_base = math.sqrt(cZero_base)
+        c_base = str(c_base)
         print("Base: " + c_base)
 
 
