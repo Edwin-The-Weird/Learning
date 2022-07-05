@@ -34,7 +34,7 @@ elif which_side == "height":
 
         c_hypo = hypo * hypo
         c_base = base * base
-        cZero_height = c_hypotenuse - c_base
+        cZero_height = c_hypo - c_base
         c_height = math.sqrt(cZero_height)
         print("Height: " + c_height)
 
