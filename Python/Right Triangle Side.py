@@ -3,14 +3,14 @@ import math
 which_side = str(input("""
 Which of the Sides do you want to Find
 
-        |\
-        | \
-        |  \ Hypotenuse
-Height  |   \
-        |    \
-        |     \
-        |______\
-          Base
+        |\/n
+        | \/n
+        |  \ Hypotenuse/n
+Height  |   \/n
+        |    \/n
+        |     \/n
+        |______\/n
+          Base/n
 
 
 """))
@@ -50,11 +50,3 @@ elif which_side == "base":
         c_base = math.sqrt(cZero_base)
         c_base = str(c_base)
         print("Base: " + c_base)
-
-
-
-
-
-
-
-
