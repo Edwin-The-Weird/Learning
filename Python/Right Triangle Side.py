@@ -10,7 +10,7 @@ Height  |   \
         |    \
         |     \
         |______\
-          length
+          Base
 
 
 """))
@@ -18,8 +18,17 @@ Height  |   \
 which_side = which_side.lower()
 
 
-hypotenuse
-length
-height
+if which_side == "hypotenuse":
+        height = int(input("Height Of the Triangle: "))
+        base = int(input("Base of the Triangle: "))
+
+        c_height = height * height
+        c_base = base * base
+        cZero_hypo = c_height + c_base
+        print(math.sqrt(cZero_hypo)) 
+
+
+
+
 
 
