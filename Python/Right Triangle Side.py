@@ -3,14 +3,14 @@ import math
 which_side = str(input("""
 Which of the Sides do you want to Find
 
-        |\\n
-        | \\n
-        |  \ Hypotenuse\n
-Height  |   \\n
-        |    \\n
-        |     \\n
-        |______\\n
-          Base\n
+        |\\
+        | \\
+        |  \ Hypotenuse\
+Height  |   \\
+        |    \\
+        |     \\
+        |______\\
+          Base\
 
 
 """))
