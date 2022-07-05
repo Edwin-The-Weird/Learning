@@ -1,7 +1,6 @@
 import math
 
 which_side = str(input("""
-<\'";|:|;"'/>
 
         |\\
         | \\
@@ -10,7 +9,7 @@ Height  |   \\
         |    \\
         |     \\
         |______\\
-          Base\
+          Base
 
 Which of the Sides do you want to Find
 >
