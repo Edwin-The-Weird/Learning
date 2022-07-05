@@ -5,7 +5,7 @@ Which of the Sides do you want to Find
 
         |\\
         | \\
-        |  \ Hypotenuse\
+        |  \ Hypotenuse
 Height  |   \\
         |    \\
         |     \\
